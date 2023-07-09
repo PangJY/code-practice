@@ -1,3 +1,5 @@
+package com.pg.codewar;
+
 public class AreaOrPerimeter {
     public static int areaOrPerimeter (int l, int w) {
        return calculateAreaOrPerimeter(l, w);
