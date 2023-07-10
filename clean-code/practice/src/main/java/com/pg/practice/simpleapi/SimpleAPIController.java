@@ -19,7 +19,7 @@ public class SimpleAPIController {
     }
 
     public static String getWeatherData(String city) {
-        String apiUrl = "http://localhost:8080/anotherapi";//BAIDU_WEATHER_API_URL + "district_id=" + city + "&data_type=all&output=json&ak=" + API_KEY;
+        String apiUrl = "http://localhost:8080/anotherapi";
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet(apiUrl);
