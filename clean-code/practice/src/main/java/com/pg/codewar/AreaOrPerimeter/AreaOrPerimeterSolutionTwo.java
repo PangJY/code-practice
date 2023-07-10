@@ -1,6 +1,6 @@
 package com.pg.codewar.AreaOrPerimeter;
 
-public class AreaOrPerimeter2 {
+public class AreaOrPerimeterSolutionTwo {
 
     public static int areaOrPerimeter (int l, int w) {
         PolygonFactory factory = new PolygonFactory();
@@ -38,8 +38,9 @@ class Rectangle implements Polygon {
 }
 
 class Square implements Polygon {
-    private final int l;
+
     private final int w;
+    private final int l;
     
     Square(int l, int w) {
         this.l = l;

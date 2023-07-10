@@ -1,4 +1,4 @@
-package com.pg.codewar;
+package com.pg.codewar.AreaOrPerimeter;
 
 public class AreaOrPerimeter {
     public static int areaOrPerimeter (int l, int w) {
